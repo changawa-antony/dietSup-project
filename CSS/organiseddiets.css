@@ -14,3 +14,37 @@
 footer{
   bottom:0;
 }
+/*Styles for social icons*/
+.btn.btn-rounded {
+     border-radius: 50px;
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff
+}
+
+ .btn-twitter {
+     background: #2caae1;
+     color: #ffffff
+ }
+ .btn-instagram {
+     background: #430297;
+     color: #ffffff
+ }
+/*Add hover effect to social icons*/
+.btn-facebook:hover,
+.btn-facebook:focus {
+     background: #2d4278;
+     color: #ffffff
+}
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+}
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #430297;opacity:0.7;
+    color: #ffffff
+}
