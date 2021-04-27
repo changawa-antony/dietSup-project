@@ -1,0 +1,19 @@
+.title{
+  text-align:right;
+}
+.content{
+  height:60%;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+footer{
+  bottom:0;
+}
+#market{
+  padding-left:0;
+  align-items:left;
+}
+#vegetables{
+  padding-right:0;
+  align-items:right;
+}
