@@ -40,8 +40,8 @@ a:hover{
   color:black;
 }
 
-footer{
-
+#footer{
+  background-color:#c4c4c4;
 }
 /*Styles for social icons*/
 .social-icons{
