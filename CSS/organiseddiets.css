@@ -15,6 +15,9 @@ footer{
   bottom:0;
 }
 /*Styles for social icons*/
+.social-icons{
+  float:right;
+}
 .btn.btn-rounded {
      border-radius: 50px;
 }
