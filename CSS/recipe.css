@@ -1,0 +1,180 @@
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+.container{
+    max-width: 1400px;
+}
+
+.content-wrapper{
+    background-color: white;
+    padding: 20px;
+}
+.navbar{
+    margin-top: 20px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+
+.nav-items{
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-links>li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.left-items>.nav-links{
+    margin-right: 20px;
+}
+
+.right-items>.nav-links{
+    margin-right: 20px;
+}
+
+.nav-links{
+    color: grey;
+}
+
+.nav-links:hover{
+    color: rgb(228, 164, 47);
+}
+
+.left-items{
+    margin-left: 40px;
+}
+
+.right-items{
+    margin-right: 40px;
+}
+
+.title{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.title>h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(85, 84, 84);
+    margin-left: 50px;
+}
+
+.recipe-display{
+    padding: 20px;
+}
+
+.display-image{
+    margin-left: 10px;
+}
+
+
+.display-image img{
+    float: right;
+    height: 60px;
+    border: 2px solid grey;
+}
+
+.display-text{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    width: 200px;
+}
+
+.display-text p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color:rgb(85, 84, 84);
+}
+
+#recipe-one{
+    display: none;
+}
+
+#recipe-two{
+    display: none;
+}
+
+#dynamic-display{
+    display: none;
+}
+
+.recipe-wrapper{
+    margin-left: 220px;
+}
+
+.recipe-text{
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+.recipe-text p{
+    font-size: 15px;
+    color:rgb(85, 84, 84);
+}
+
+h3{
+    color:rgb(85, 84, 84);
+}
+
+.recipe-img img{
+    height: 600px;
+}
+
+.add-recipe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:rgb(85, 84, 84);
+}
+
+button{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.input-form{
+    margin-left: 200px;
+    padding: 20px;
+    color:rgb(85, 84, 84);
+}
+
+
+.form-input input[type=text]{
+    background-color: grey;
+}
+
+.form-control{
+    background-color: rgb(230, 230, 230);
+    border: none;
+
+}
+
+#form-display{
+    display: none;
+}
+
+.icon-links img{
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+    
+}
+
+.footer-text>p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: grey;
+}
+
+
+
+
