@@ -1,25 +1,55 @@
+body{
+  background-color:#f2f2f2;
+}
+.container{
+  background-color:white;
+}
 .title{
   text-align:right;
+  font-size:60px;
+  padding-right:0;
 }
 .image{
   padding-left:0;
 }
-#details-breakfast{
-  padding:;
-  background-color:;
-  height:60%;
-  margin-top:auto;
-  margin-bottom:auto;
+.meals{
+  padding-top:20px;
+  padding-bottom:30px;
 }
+.details{
+  background-color:#f2f2f2;
+  text-align:left;
+  padding:80px 30px 80px 60px;
+  margin-left:10px;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color:#f2f2f2;
+  color:black;
+
+}
+.nav-pills{
+  background-color:#c4c4c4;
+}
+.nav-link{
+  color:black;
+}
+
+a:hover{
+  text-decoration:underline;
+  color:black;
+}
+
 footer{
-  bottom:0;
+
 }
 /*Styles for social icons*/
 .social-icons{
   float:right;
 }
 .btn.btn-rounded {
-     border-radius: 50px;
+  border-radius: 50px;
+  margin:5px;
 }
 
 .btn-facebook {
