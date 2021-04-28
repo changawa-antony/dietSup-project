@@ -25,6 +25,14 @@ body{
 }
 #footer{
   background-color:#c4c4c4;
+
+}
+#footer.row>*{
+
+  padding-right:0;
+}
+div#footer.container.row{
+  margin:0;
 }
 #market-content{
   margin-left:50px;
@@ -57,9 +65,7 @@ body{
   margin:5px;
   text-align:right;
 }
-.fa{
-  font-size:30px;
-}
+
 .btn.btn-rounded {
     border-radius: 50px;
     margin:5px;
