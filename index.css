@@ -22,8 +22,9 @@
 }
 .mission-tag p{
     text-align: end;
-    transform: rotate(-90deg);
-    
+    transform: rotate(90deg);
+    position: relative;
+    transform-origin: 0 0;
     
 }
 
