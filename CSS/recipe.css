@@ -22,6 +22,7 @@ body{
     font-size: 20px;
 }
 
+
 .nav-links>li{
     display: inline-block;
     margin-top: 20px;
@@ -45,10 +46,15 @@ body{
 
 .left-items{
     margin-left: 40px;
+    text-align: right;
+    margin-bottom: 0.5px;
 }
 
 .right-items{
+    text-align: left;
     margin-right: 40px;
+    padding-inline-start: 30px;
+    margin-bottom: 0.5px;
 }
 
 .title{
@@ -59,7 +65,7 @@ body{
 .title>h1{
     font-weight: bold;
     font-size: 60px;
-    color: rgb(85, 84, 84);
+    color: grey;
     margin-left: 50px;
 }
 
@@ -92,11 +98,11 @@ body{
 }
 
 #recipe-one{
-    display: none;
+    display:;
 }
 
 #recipe-two{
-    display: none;
+    display:;
 }
 
 #dynamic-display{
@@ -165,7 +171,7 @@ button{
 }
 
 footer{
-    background-color: rgb(230, 230, 230);
+    background-color: #c4c4c4;
     
 }
 

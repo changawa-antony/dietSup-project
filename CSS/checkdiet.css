@@ -1,0 +1,187 @@
+
+body{
+    background-color: rgb(236, 236, 236);
+    font-size: 15px;
+}
+.container{
+    max-width: 1400px;
+}
+
+.content-wrapper{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.navbar{
+    margin-top: 20px;
+}
+.navbar-brand img{
+    height: 50px;
+}
+
+.nav-items{
+    font-size: 20px;
+}
+
+.nav-links>li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.left-items>.nav-links{
+    margin-right: 20px;
+}
+
+.right-items>.nav-links{
+    margin-right: 20px;
+}
+
+.nav-links{
+    color: grey;
+}
+
+.nav-links:hover{
+    color: rgb(228, 164, 47);
+}
+
+.left-items{
+    margin-left: 40px;
+    text-align: right;
+    margin-bottom: 0.5px;
+}
+
+.right-items{
+    margin-right: 40px;
+    padding-inline-start: 30px;
+    margin-bottom: 0.5px;
+}
+
+.title{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.title>h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: grey;
+    margin-left: 80px;
+}
+
+.img-holder>img{
+    height: 450px;
+    margin-left: 0;
+}
+
+.form-input input[type=text]{
+    background-color: grey;
+}
+
+.form-control{
+    background-color: rgb(230, 230, 230);
+    border: none;
+
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+.img-holder{
+    margin-left: 0;
+}
+
+.container{
+    padding-left: 0;
+}
+
+.col-6{
+    padding: 0;
+}
+
+h2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.form-holder{
+    padding-right: 50px;
+    color: grey;
+}
+
+form{
+    padding-left: 100px;
+}
+
+.form-group{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.add-recipe{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color:rgb(85, 84, 84);
+}
+
+button{
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+.alert-display{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.alert p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.more-links{
+    font-weight: 800;
+    color:rgb(85, 84, 84);
+    margin-bottom: 50px;
+}
+
+#other-links{
+    display: none;
+}
+
+.more-links a{
+    text-decoration: none;
+    color:rgb(85, 84, 84);
+}
+
+.more-links a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    color: orange;
+}
+
+.icon-links img{
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color:#c4c4c4;
+    
+}
+
+.footer-text>p{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: grey;
+}
