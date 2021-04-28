@@ -4,6 +4,10 @@ body{
 .container{
   background-color:white;
 }
+
+.content-holder{
+  height: 800px;
+}
 .title{
   text-align:right;
   font-size:60px;
