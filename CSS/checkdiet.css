@@ -88,6 +88,10 @@ input[type=text]{
     width: 400px;
 }
 
+.form-check-inline .form-check-input{
+    margin-left: 20px;
+}
+
 .img-holder{
     margin-left: 0;
 }
@@ -142,9 +146,38 @@ button{
     margin-bottom: 30px;
 }
 
+.alert{
+    background-color: rgb(20, 190, 20);
+}
+
+.analysis-list{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+.foodlist{
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+.anylisis{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color:rgb(85, 84, 84);
+}
+
 .alert p{
     font-size: 30px;
     margin-top: 10px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 0;
 }
 
 .more-links{
@@ -154,6 +187,10 @@ button{
 }
 
 #other-links{
+    display: none;
+}
+
+#other-pages-links{
     display: none;
 }
 

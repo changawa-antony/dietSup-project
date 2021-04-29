@@ -85,9 +85,16 @@ body{
 }
 
 .display-text{
+    display: flex;
+    justify-content: center;
     background-color: rgb(230, 230, 230);
     text-align: center;
     width: 200px;
+}
+
+.display-text:hover{
+    background-color: rgb(243, 191, 94);
+
 }
 
 .display-text p{
@@ -97,16 +104,58 @@ body{
     color:rgb(85, 84, 84);
 }
 
+.display-text a:hover{
+    text-decoration: none;
+    color: rgb(228, 164, 47);
+}
+
+.display-text a{
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 #recipe-one{
-    display:;
+    display: none;
 }
 
 #recipe-two{
-    display:;
+    display: none;
+}
+
+#recipe-one-hide{
+    display: none;
+}
+
+#recipe-two-hide{
+    display: none;
 }
 
 #dynamic-display{
     display: none;
+}
+
+.buttone-toggle{
+    border: none;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    color:rgb(85, 84, 84);
+    background-color: none;
+}
+
+button:focus {outline:0;}
+
+.buttone-toggle:hover{
+    background-color: none;
+    border: none;
 }
 
 .recipe-wrapper{

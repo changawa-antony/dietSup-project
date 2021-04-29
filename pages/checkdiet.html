@@ -20,7 +20,7 @@
                         <a href="../pages/checkdiet.html" class="nav-links">
                             <li>Check Diet</li>
                         </a>
-                        <a href="" class="nav-links">
+                        <a href="../pages/organiseddiets.html" class="nav-links">
                             <li>Organised Diets</li>
                         </a>
                     </ul>
@@ -35,7 +35,7 @@
                         <a href="../pages/recipe.html" class="nav-links">
                             <li>Recipe</li>
                         </a>
-                        <a href="" class="nav-links">
+                        <a href="../pages/insight.html" class="nav-links">
                             <li>Insight</li>
                         </a>
                     </ul>
@@ -66,17 +66,15 @@
                                     <input type="text" class="form-control" id="foodone" placeholder="e.g. ugali">
                                   </div>
                           
-                                  <div class="form-check form-check-inline">
+                                  <div class="form-check form-check-inline" id="foodone-radio">
                                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="carbohydrates">
                                       <label class="form-check-label" for="inlineRadio1">Carbohydrates</label>
-                                  </div>
-                                  <div class="form-check form-check-inline">
+
                                       <input class="form-check-input" type="radio" name="inlineRadioOptions" id="protein" value="proteins">
                                       <label class="form-check-label" for="inlineRadio2">Proteins</label>
-                                  </div>
-                                  <div class="form-check form-check-inline">
-                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamin" value="vitamins">
-                                      <label class="form-check-label" for="inlineRadio2">Vitamins</label>
+
+                                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamin" value="fats">
+                                      <label class="form-check-label" for="inlineRadio2">Fats</label>
                                   </div>
                             </form>
                             
@@ -87,17 +85,15 @@
                                     <input type="text" class="form-control" id="foodtwo">
                                 </div>
                           
-                                <div class="form-check form-check-inline">
+                                <div class="form-check form-check-inline" id="foodtwo-radio">
                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="carbohydrates2" value="carbohydrates">
                                     <label class="form-check-label" for="inlineRadio1">Carbohydrates</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="protein2" value="proteins2">
+                            
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="protein2" value="proteins">
                                     <label class="form-check-label" for="inlineRadio2">Proteins</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamins2" value="vitamins2">
-                                    <label class="form-check-label" for="inlineRadio2">Vitamins</label>
+                            
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamins2" value="fats">
+                                    <label class="form-check-label" for="inlineRadio2">Fats</label>
                                 </div>
                             </form>
 
@@ -108,17 +104,15 @@
                                     <input type="text" class="form-control" id="foodthree">
                                 </div>
                         
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="carbohydrates3" value="carbohydrates3">
+                                <div class="form-check form-check-inline" id="foodthree-radio">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="carbohydrates3" value="carbohydrates">
                                     <label class="form-check-label" for="inlineRadio1">Carbohydrates</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="proteins3" value="proteins3">
+
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="proteins3" value="proteins">
                                     <label class="form-check-label" for="inlineRadio2">Proteins</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamins3" value="vitamins3">
-                                    <label class="form-check-label" for="inlineRadio2">Vitamins</label>
+                                
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="vitamins3" value="fats">
+                                    <label class="form-check-label" for="inlineRadio2">Fats</label>
                                 </div>
                             </form>
                             
@@ -129,19 +123,28 @@
                 </div>
 
                 <div class="add-recipe text-center">
-                    <button type="button" class="btn btn-warning text-light font-weight-bold">Check your diet</button>
+                    <button type="button" class="btn btn-warning text-light font-weight-bold" id="check-diet">Check your diet</button>
                 </div>
 
-                <div class="alert-display text-light font-weight-bold" id="other-links">
-                    <div class="alert bg-danger col-4 text-center">
-                        <p>Your diet is not balanced!!</p>
+                <div class="alert-display text-light font-weight-bold">
+                    <div class="alert col-4 text-center" id="other-links">
+                        <p id="alert-text"></p>
                     </div>   
                 </div>
 
-                <div class="more-links text-center" id="other-links">
+                <div class="more-links text-center" id="other-pages-links">
                     <a href="../pages/organiseddiets.html"><p>Check our diet organiser to improve on your diet needs...</p></a> 
                     <a href="../pages/insight.html"><p>Check our insights page for healthy foods review...</p></a> 
                     <a href="../pages/recipe.html"><p>Prepare your own delicasies using our recipes...</p></a> 
+                </div>
+
+                <div class="anylisis" id="anylisis-display">
+                    <div class="foodlist text-center col-6">
+                        <h2 class="bg-warning">Analysis</h2>
+                        <div id="display-data">
+                            
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -166,6 +169,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="./JS/index.js" type="text/javascript"></script>
+        <script src="../JS/index.js" type="text/javascript"></script>
     </body>
 </html>
