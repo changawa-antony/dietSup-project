@@ -3,6 +3,7 @@ body{
 }
 .main-content{
   background-color:white;
+
 }
 .title{
   text-align:right;
@@ -25,14 +26,15 @@ body{
 }
 #footer{
   background-color:#c4c4c4;
-
 }
 #footer.row>*{
-
-  padding-right:0;
+  padding:0;
+}
+#footer>p{
+  margin-bottom:0;
 }
 div#footer.container.row{
-  margin:0;
+  padding-right:0;
 }
 #market-content{
   margin-left:50px;
@@ -41,6 +43,9 @@ div#footer.container.row{
 #veges-content{
   margin-left:45px;
   margin-right:45px;
+}
+#veges-img{
+  padding-left:0;
 }
 #market{
   padding-left:0;
@@ -54,9 +59,6 @@ div#footer.container.row{
   text-align:right;
   float:right;
   margin-bottom:50px;
-  background-color:#f2f2f2;
-}
-.#market,#vegetables{
   background-color:#f2f2f2;
 }
 
