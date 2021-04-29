@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $("#lunch-link").click(function(){
+    $("#lunch").css("display","block");
+    $("#breakfast").css("display","none");
+    $("#dinner").css("display","none");
+    $(".lunch-nav").addClass("active");
+    $(".breakfast-nav").removeClass("active");
+    $(".dinner-nav").removeClass("active");
+  });
+  $("#breakfast-link").click(function(){
+    $("#breakfast").css("display","block");
+    $("#dinner").css("display","none");
+    $("#lunch").css("display","none");
+    $(".breakfast-nav").addClass("active");
+    $(".lunch-nav").removeClass("active");
+    $(".dinner-nav").removeClass("active");
+  });
+  $("#dinner-link").click(function(){
+    $("#dinner").css("display","block");
+    $("#breakfast").css("display","none");
+    $("#lunch").css("display","none");
+    $(".dinner-nav").addClass("active");
+    $(".breakfast-nav").removeClass("active");
+    $(".lunch-nav").removeClass("active");
+  });
+});
