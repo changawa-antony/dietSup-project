@@ -1,112 +1,149 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link href="../CSS/organiseddiets.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Organised Diets</title>
-  </head>
-  <body>
-    <div class="container content-holder">
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="../CSS/organiseddiets.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Organised Diets</title>
+</head>
+<body>
 
+    <div class="container-fluid content-holder">
+        <nav class="navbar navbar-light bg-transparent">
+          <div class="nav-items col-5">
+              <ul class="left-items">
+                  <a href="../pages/checkdiet.html" class="nav-links">
+                      <li>Check Diet</li>
+                  </a>
+                  <a href="../pages/organiseddiets.html" class="nav-links">
+                      <li>Organised Diets</li>
+                  </a>
+              </ul>
+          </div>
+          <div class="logo-container col-2">
+              <a class="navbar-brand" href="../index.html">
+                  <img src="../images/DietSup-logo.png"alt="">
+                </a>
+          </div>
+          <div class="nav-items col-5">
+              <ul class="right-items">
+                  <a href="../pages/recipe.html" class="nav-links">
+                      <li>Recipe</li>
+                  </a>
+                  <a href="../pages/insight.html" class="nav-links">
+                      <li>Insight</li>
+                  </a>
+              </ul>
+          </div>   
+        </nav>
 
-      <nav class="navbar navbar-light bg-transparent">
-        <div class="nav-items col-5">
-            <ul class="left-items">
-                <a href="../pages/checkdiet.html" class="nav-links">
-                    <li>Check Diet</li>
-                </a>
-                <a href="../pages/organiseddiets.html" class="nav-links">
-                    <li>Organised Diets</li>
-                </a>
-            </ul>
+        <div class="container-fluid g-0" >
+          <h1 class="title">Organized Diets</h1>
         </div>
-        <div class="logo-container col-2">
-            <a class="navbar-brand" href="#">
-                <img src="../images/DietSup-logo.png"alt="">
-              </a>
+
+        <div class="container-diet row text-center">
+            <div class="breakfast-nav active organised  col-md-4">
+              <a id="breakfast-link" href="#">Breakfast</a>
+            </div>
+
+            <div class="lunch-nav  organised col-md-4">
+              <a id="lunch-link" href="#">Lunch</a>
+            </div>
+
+            <div class="dinner-nav organised col-md-4">
+              <a id="dinner-link" href="#">Dinner</a>
+            </div>
         </div>
-        <div class="nav-items col-5">
-            <ul class="right-items">
-                <a href="../pages/recipe.html" class="nav-links">
-                    <li>Recipe</li>
-                </a>
-                <a href="../pages/insight.html" class="nav-links">
-                    <li>Insight</li>
-                </a>
-            </ul>
-        </div>   
-      </nav>
-      <div class="container g-0" >
-        <h1 class="title">Organized Diets</h1>
-      </div>
-      <div class="container-diet row text-center">
-        <div class="breakfast-nav active organised  col-md-4 ">
-          <a id="breakfast-link" href="#breakfast">Breakfast</a>
-        </div>
-        <div class="lunch-nav  organised col-md-4">
-          <a id="lunch-link" href="#lunch">Lunch</a>
-        </div>
-        <div class="dinner-nav organised col-md-4">
-          <a id="dinner-link" href="#dinner">Dinner</a>
-        </div>
-      </div>
-      <div class="container meals" id="breakfast">
-        <div class="row">
-          <img class="col-md-4 image" src="../images/organiseddiets/breakfast.jpg">
-          <div class="col-md-7 details" id="details-breakfast">
-            <p class="first">Whole grains<br>Examples include whole-grain rolls and bagels, hot or cold whole-grain cereals, whole-grain English muffins, and whole-grain waffles.</p>
-            <p>Lean protein<br>Examples include eggs, lean meat, legumes and nuts.</p>
-            <p>Low-fat dairy<br>Examples include milk, plain or lower sugar yoghurts, and low-fat cheeses, such as cottage cheese and natural cheeses</p>
-            <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+
+        <div class="type-meal-holder">
+          <div class="meals" id="breakfast">
+            <div class="row">
+              <div class="image-holder col-4">
+                <img class="col-md-4 image" src="../images/organiseddiets/breakfast.jpg">
+              </div>
+
+              <div class="col-md-6 details" id="details-breakfast">
+                <p class="first">Whole grains<br>Examples include whole-grain rolls and bagels, hot or cold whole-grain cereals, whole-grain English muffins, and whole-grain waffles.</p>
+                <p>Lean protein<br>Examples include eggs, lean meat, legumes and nuts.</p>
+                <p>Low-fat dairy<br>Examples include milk, plain or lower sugar yoghurts, and low-fat cheeses, such as cottage cheese and natural cheeses</p>
+                <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container meals" id="lunch">
-        <div class="row">
-          <img class="col-md-4 image" src="../images/organiseddiets/lunch.jpg">
-          <div class="col-md-7 details" id="details-lunch">
-            <p class="first">Whole grains<br>Examples include whole-grain rolls and bagels, hot or cold whole-grain cereals, whole-grain English muffins, and whole-grain waffles.</p>
-            <p>Lean protein<br>Examples include eggs, lean meat, legumes and nuts.</p>
-            <p>Low-fat dairy<br>Examples include milk, plain or lower sugar yoghurts, and low-fat cheeses, such as cottage cheese and natural cheeses</p>
-            <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+  
+          <div class="meals" id="lunch">
+            <div class="row">
+              <div class="image-holder-two col-4">
+                <img class="col-md-4 image" src="../images/organiseddiets/lunch.jpg">
+              </div>
+              
+              <div class="col-md-6 details" id="details-lunch">
+                <p class="first">Carbs<br>Examples include spaghetti squash, pasta ratatouille, vegeterian pizza, rice</p>
+                <p>Lean protein<br>Examples include eggs, legumes, white meat: chicken, pork, fish, and nuts </p>
+                <p>Salads<br>Examples include beetroot salad, tuna salad, green salad, Waldorf salad</p>
+                <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="container meals" id="dinner">
-        <div class="row">
-          <img class="col-md-4 image" src="../images/organiseddiets/dinner.jpg">
-          <div class="col-md-7 details" id="details-dinner">
-            <p class="first">Whole grains<br>Examples include whole-grain rolls and bagels, hot or cold whole-grain cereals, whole-grain English muffins, and whole-grain waffles.</p>
-            <p>Lean protein<br>Examples include eggs, lean meat, legumes and nuts.</p>
-            <p>Low-fat dairy<br>Examples include milk, plain or lower sugar yoghurts, and low-fat cheeses, such as cottage cheese and natural cheeses</p>
-            <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+  
+          <div class="meals" id="dinner">
+            <div class="row">
+              <div class="image-holder col-4">
+                <img class="col-md-4 image" src="../images/organiseddiets/dinner.jpg">
+              </div>
+              
+              <div class="col-md-6 details" id="details-dinner">
+                <p class="first">Carbs<br>Examples include whole-grain chapatis, coconut rice, quesedillas, casserole and arroz con leche </p>
+                <p>Lean protein<br>Examples include eggs, legumes, white meat: chicken, pork, fish, and nuts </p>
+                <p>Low-fat dairy<br>Examples include milk, plain or lower sugar yoghurts, and low-fat cheeses, such as cottage cheese and natural cheeses</p>
+                <p class="last">Fruits and vegetables<br>Examples include fresh or frozen fruits and vegetables, 100 percent juice drinks without added sugar, and fruit and vegetable smoothies.</p>
+              </div>
+            </div>
           </div>
+
         </div>
-      </div>
-      <div class="container row" id="footer">
-        <p class="col-md-8">Copyright@DietSup.Co</p>
-        <div class="col-md-4">
-          <div class="social-icons">
-            <button type="button" class="btn btn-social-icon btn-instagram btn-rounded">
-              <i class="fa fa-instagram"></i>
-            </button>
-            <button type="button" class="btn btn-social-icon btn-twitter btn-rounded">
-              <i class="fa fa-twitter"></i>
-            </button>
-            <button type="button" class="btn btn-social-icon btn-facebook btn-rounded">
-              <i class="fa fa-facebook"></i>
-            </button>
+
+        
+  </div>
+
+        <!--
+              <div class="container row" id="footer">
+                <p class="col-md-8">Copyright@DietSup.Co</p>
+                <div class="col-md-4">
+                  <div class="social-icons">
+                    <button type="button" class="btn btn-social-icon btn-instagram btn-rounded">
+                      <i class="fa fa-instagram"></i>
+                    </button>
+                    <button type="button" class="btn btn-social-icon btn-twitter btn-rounded">
+                      <i class="fa fa-twitter"></i>
+                    </button>
+                    <button type="button" class="btn btn-social-icon btn-facebook btn-rounded">
+                      <i class="fa fa-facebook"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            -->
+
+  <footer class="container-fluid">
+      <div class="footer-content row">
+          <div class="footer-text col">
+              <p>Copyright <i class="fa fa-copyright" aria-hidden="true">2021 DietSup.Co</i></p>
           </div>
-        </div>
+
+          <div class="footer-icons col">
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-instagram-96.png" alt=""></a>
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-twitter-96.png" alt=""></a>
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-facebook-96.png" alt=""></a>
+          </div>
       </div>
-    </div>
+  </footer>
 
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="../JS/scripts.js"></script>
-  </body>
+</body>
 </html>

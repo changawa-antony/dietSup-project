@@ -9,58 +9,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Insights</title>
   </head>
-  <body>
-    <div class="container main-content">
+<body>
+  
+    <div class="container-fluid main-content">
+        <nav class="navbar navbar-light bg-transparent">
+          <div class="nav-items col-5">
+              <ul class="left-items">
+                  <a href="../pages/checkdiet.html" class="nav-links">
+                      <li>Check Diet</li>
+                  </a>
+                  <a href="../pages/organiseddiets.html" class="nav-links">
+                      <li>Organised Diets</li>
+                  </a>
+              </ul>
+          </div>
+          <div class="logo-container col-2">
+              <a class="navbar-brand" href="#">
+                  <img src="../images/DietSup-logo.png"alt="">
+                </a>
+          </div>
+          <div class="nav-items col-5">
+              <ul class="right-items">
+                  <a href="../pages/recipe.html" class="nav-links">
+                      <li>Recipe</li>
+                  </a>
+                  <a href="../pages/insight.html" class="nav-links">
+                      <li>Insight</li>
+                  </a>
+              </ul>
+          </div>   
+        </nav>
 
-
-      <nav class="navbar navbar-light bg-transparent">
-        <div class="nav-items col-5">
-            <ul class="left-items">
-                <a href="../pages/checkdiet.html" class="nav-links">
-                    <li>Check Diet</li>
-                </a>
-                <a href="../pages/organiseddiets.html" class="nav-links">
-                    <li>Organised Diets</li>
-                </a>
-            </ul>
-        </div>
-        <div class="logo-container col-2">
-            <a class="navbar-brand" href="#">
-                <img src="../images/DietSup-logo.png"alt="">
-              </a>
-        </div>
-        <div class="nav-items col-5">
-            <ul class="right-items">
-                <a href="../pages/recipe.html" class="nav-links">
-                    <li>Recipe</li>
-                </a>
-                <a href="../pages/insight.html" class="nav-links">
-                    <li>Insight</li>
-                </a>
-            </ul>
-        </div>   
-      </nav>
         <div class="container">
           <h1 class="title">Insights</h1>
         </div>
-        <div>
-          <div class="container row bg-warning" id="market">
-            <img class="col-md-3 img" src="../images/insight-page/market.jpg" id="market-img" height="400">
-            <div class="col-md-7 content" id="market-content">
-              <h2>The Vegetable Market</h2>
-              <p>Vegetables are the life and good health for all human beings. When man takes food without greens then it is an easy entry of many sickness and diseases to the body. But the entry of the veges allows the body to build a strong self defence against any intruder.</p>
-              <p>This makes the vegetable market vital to all. The market is always ready. Just move to any market and get some.</p>
-            </div>
-          </div>
 
-          <div class="container row" id="vegetables">
-            <div class="col-md-7 content" id="veges-content">
-              <h2>Why vegetables?</h2>
-              <p>A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer, lower risk of eye and digestive problems, and have a positive effect upon blood sugar, which can help keep appetite in check. Eating non-starchy vegetables and fruits like apples, pears, and green leafy vegetables may even promote weight loss. [1] Their low glycemic loads prevent blood sugar spikes that can increase hunger.</p>
+        <div class="insight-holder">
+            <div>
+              <div class="container row bg-warning" id="market">
+                <img class="col-md-3 img" src="../images/insight-page/market.jpg" id="market-img" height="400">
+                <div class="col-md-7 content" id="market-content">
+                  <h2>The Vegetable Market</h2>
+                  <p>Vegetables are the life and good health for all human beings. When man takes food without greens then it is an easy entry of many sickness and diseases to the body. But the entry of the veges allows the body to build a strong self defence against any intruder.</p>
+                  <p>This makes the vegetable market vital to all. The market is always ready. Just move to any market and get some.</p>
+                </div>
             </div>
-            <img class="col-md-4 image" src="../images/insight-page/vegetables.jpg" id="veges-img" height="350">
-          </div>
+    
+            <div class="container row" id="vegetables">
+                <div class="col-md-7 content" id="veges-content">
+                  <h2>Why vegetables?</h2>
+                  <p>A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer, lower risk of eye and digestive problems, and have a positive effect upon blood sugar, which can help keep appetite in check. Eating non-starchy vegetables and fruits like apples, pears, and green leafy vegetables may even promote weight loss. [1] Their low glycemic loads prevent blood sugar spikes that can increase hunger.</p>
+                </div>
+                <img class="col-md-4 image" src="../images/insight-page/vegetables.jpg" id="veges-img" height="350">
+              </div>
+            </div>
+
         </div>
+        
+        
+
+
+        <!--
         <div class="container row" id="footer">
           <p class="col-md-8">Copyright@DietSup.Co</p>
           <div class="col-md-4">
@@ -77,6 +86,22 @@
              </div>
           </div>
         </div>
+
+      -->
     </div>
-  </body>
+
+    <footer class="container-fluid">
+      <div class="footer-content row">
+          <div class="footer-text col">
+              <p>Copyright <i class="fa fa-copyright" aria-hidden="true">2021 DietSup.Co</i></p>
+          </div>
+
+          <div class="footer-icons col">
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-instagram-96.png" alt=""></a>
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-twitter-96.png" alt=""></a>
+              <a href="" class="icon-links"><img src="../images/footer-icons/icons8-facebook-96.png" alt=""></a>
+          </div>
+      </div>
+</footer>
+</body>
 </html>

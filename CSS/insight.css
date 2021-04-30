@@ -5,6 +5,18 @@ body{
   background-color:#f2f2f2;
 }
 
+.col-2{
+  width: fit-content;
+  flex: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-5{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .navbar{
   margin-top: 20px;
 }
@@ -48,15 +60,15 @@ body{
 .right-items{
   text-align: left;
   margin-right: 40px;
-  padding-inline-start: 30px;
+  padding-inline-start: 0px;
   margin-bottom: 0.5px;
 }
-.main-content{
-  background-color:white;
-}
+
 .title{
   text-align:right;
+  font-weight: bolder;
   font-size:60px;
+  margin-bottom: 30px;
 }
 .content{
   height:50%;
@@ -73,17 +85,11 @@ body{
   padding-right:0;
 
 }
-#footer{
-  background-color:#c4c4c4;
 
-}
 #footer.row>*{
+  padding:0;
+}
 
-  padding-right:0;
-}
-div#footer.container.row{
-  margin:0;
-}
 #market-content{
   margin-left:50px;
   margin-right:50px;
@@ -91,6 +97,9 @@ div#footer.container.row{
 #veges-content{
   margin-left:45px;
   margin-right:45px;
+}
+#veges-img{
+  padding-left:0;
 }
 #market{
   padding-left:0;
@@ -104,9 +113,6 @@ div#footer.container.row{
   text-align:right;
   float:right;
   margin-bottom:50px;
-  background-color:#f2f2f2;
-}
-.#market,#vegetables{
   background-color:#f2f2f2;
 }
 
@@ -150,3 +156,22 @@ div#footer.container.row{
     background: #430297;opacity:0.7;
     color: #ffffff
 }
+
+.icon-links img{
+  float: right;
+  height: 40px;
+  margin-top: 10px;
+  padding-right: 20px;
+}
+
+footer{
+  background-color: #c4c4c4;
+  
+}
+
+.footer-text>p{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: grey;
+}
+
