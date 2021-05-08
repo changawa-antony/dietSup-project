@@ -1,4 +1,4 @@
-# DietSub
+# DietSup.
 ## Description
 A web application that allows you to take charge of your diet needs and ensure that every time you are eating healthy.
 ## Prerequisites
