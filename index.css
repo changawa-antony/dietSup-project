@@ -105,14 +105,14 @@ body{
     max-width: 1400px;
 }
 .organised-div{
-    background-image: url("..//images/homepage/checkdiet.jpg");
+    background-image: url("images/homepage/checkdiet.jpg");
     background-size: cover;
     width: 450px;
     border-radius: 50%;
 }
 
 .check-div{
-    background-image: url("..//images/homepage/organiseddiets.jpg");
+    background-image: url("images/homepage/organiseddiets.jpg");
     background-size: cover;
     width: 450px;
     border-radius: 50%;
@@ -125,7 +125,7 @@ body{
 
 
 .recipe-div{
-    background-image: url("..//images/homepage/recipe.jpg");
+    background-image: url("images/homepage/recipe.jpg");
     background-size: cover;
     width: 450px;
     border-radius: 50%;
@@ -142,7 +142,7 @@ body{
     font-weight: bold;
     padding-top: 120px;
     opacity: 0;
-    
+
 }
 
 .our-services>div>p:hover{
@@ -226,23 +226,23 @@ figure p{
       border: none;
       padding: 20px;
   }
-  
+
   .card-front {
     transform: rotateY(0deg);
     background-color: rgb(230, 230, 230);
     border-radius: 8px;
   }
-  
+
   .card-back {
     transform: rotateY(180deg);
     position: absolute;
     top: 0;
   }
-  
+
   .card-flip:hover .card-front {
     transform: rotateY(-180deg);
   }
-    
+
   .card-flip:hover .card-back {
     transform: rotateY(0deg);
   }
@@ -266,7 +266,7 @@ figure p{
   .card-body p{
       font-size: 30px;
       color: grey;
-      
+
   }
 
   .subscribe-section{
@@ -274,7 +274,7 @@ figure p{
       margin-top: 50px;
       margin-bottom: 50px;
       color: grey;
-      
+
   }
 
   .subcribe-div button{
@@ -303,7 +303,7 @@ figure p{
 
 footer{
     background-color: #c4c4c4;
-    
+
 }
 
 .footer-text>p{
@@ -353,8 +353,8 @@ background-color: white;
 li{
     float: left;
 }
-  
-    
+
+
 ul{
     list-style-type: none;
     margin-left: 20%;
@@ -364,7 +364,7 @@ ul{
     font-weight: bold;
     font-size:20px;
     text-align: center;
-   
+
 }
 
 a:link,a:visited{
@@ -380,7 +380,7 @@ a:link,a:visited{
 }
 a :hover,a:active{
     background-color: chocolate;
-    
+
 }
 .img{
     padding-top: 50px;
@@ -451,7 +451,7 @@ a :hover,a:active{
     margin-left: 96%;
     font-weight: bold;
     font-size: 20px;
-    
+
 }
 .team{
     text-align: end;
@@ -466,7 +466,7 @@ a :hover,a:active{
     font-size: 20px;
 }
 .one{
-  
+
     padding-left: 40%;
 }
 .two{
